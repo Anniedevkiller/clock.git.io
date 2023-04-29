@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+   background-image: url(https://blog.depositphotos.com/wp-content/uploads/2017/07/Soothing-nature-backgrounds-2.jpg.webp);
+   overflow: hidden;
+}
+h2{
+    text-transform:uppercase;
+    letter-spacing: 3px;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(117, 36, 36);
+}
+.clock{
+    display: flex;
+    letter-spacing: 2px;
+}
+.clock div{
+    margin: 5px;
+    position: relative;
+}
+.clock span{
+    width: 100px;
+    color: rgb(17, 17, 65);
+    text-transform: uppercase;
+    background-color: rgb(126, 66, 66);
+    opacity: 90;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: rgba(red, green, blue, alpha);
+
+}
+.clock .text{
+    height: 30px;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    background:grey;
+    opacity: 0.8px;
+}
+.clock #ampm{
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background:rgb(167, 163, 163);
+}
